@@ -163,32 +163,6 @@ export default class App extends React.Component {
     })
 
   }
-  // this.setState({
-
-  //   count: this.state.count + 1,
-  //   
-  //   }
-
-  // }, () => {
-  //   console.log(this.state.count);
-  //   var Arr = this.state.obj, _Arr = this.state.change;
-  //   if (this.state.count > 0) {
-
-  //     var element = <div className="col-md-6 col-sm-12" key={Math.random()}>
-  //       <SimpleCard BMI={this.state.obj.BMI} weight={this.state.obj.weight} height={this.state.obj.height} key={Math.random()} />
-  //     </div>
-  //     _Arr.push(element);
-  //     this.setState({
-  //       change: _Arr
-  //     }, () => {
-  //       console.log(this.state.change)
-  //     })
-
-  //   }
-  // })
-
-
-
   deleteObj(index) {
     const newList = JSON.parse(JSON.stringify(this.state.list));
     newList.splice(index, 1);
