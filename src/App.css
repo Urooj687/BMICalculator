@@ -1,0 +1,26 @@
+.App form input{
+
+    background-color: #fff!important;
+    border-radius: 44px!important;
+    width: 90%!important;
+    padding: 0 15px!important;
+}
+.App form .calculate-btn {
+  background-color: #3f51b5;
+  padding: 15px 50px;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 44px;
+  cursor: pointer;
+  border: 1px solid #3f51b5;
+  margin-bottom: 40px;
+}
+
+.App .data-container {
+    background-color: #1f3a67;
+    border-radius: 11px;
+    margin-top: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
