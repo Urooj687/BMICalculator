@@ -1,2 +1,2 @@
-# BMICalculator-master
+# BMICalculator
  
